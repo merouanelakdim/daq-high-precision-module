@@ -1,0 +1,11 @@
+* Filtre R4 / C9 pour MUX_OUT → ADC
+
+Vin MUX_OUT 0 AC 1 SIN(0 1 1k)
+R4 MUX_OUT ADC_IN 1k
+C9 ADC_IN 0 100n
+
+.ac dec 100 10 1Meg
+.tran 0 5m 0 1u
+
+.backanno
+.end

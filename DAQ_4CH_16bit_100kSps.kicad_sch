@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ec0e71c3-6ccc-452c-a2da-59ca9f8f3408)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 176.53 87.63) (size 88.9 54.61) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0d7743be-b060-4e48-abcd-694b4442286b)
+    (property "Sheetname" "ANALOG_CH" (at 176.53 86.9184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ANALOG_CH.kicad_sch" (at 176.53 142.8246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DAQ_4CH_16bit_100kSps"
+        (path "/ec0e71c3-6ccc-452c-a2da-59ca9f8f3408" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 31.75 90.17) (size 105.41 52.07) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 39c241bd-8a6a-4df2-946c-6d74829a61d2)
+    (property "Sheetname" "ADC_MUX" (at 31.75 89.4584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ADC_MUX.kicad_sch" (at 31.75 142.8246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DAQ_4CH_16bit_100kSps"
+        (path "/ec0e71c3-6ccc-452c-a2da-59ca9f8f3408" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 175.26 20.32) (size 86.36 52.07) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 60756504-3527-487d-b42e-c2c1399cfabc)
+    (property "Sheetname" "MCU_STM32G0" (at 175.26 19.6084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU_STM32G0.kicad_sch" (at 175.26 72.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DAQ_4CH_16bit_100kSps"
+        (path "/ec0e71c3-6ccc-452c-a2da-59ca9f8f3408" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 31.75 20.32) (size 105.41 52.07) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a80223a3-9f01-420a-b00e-ef0e1a8e2a6a)
+    (property "Sheetname" "POWER_REF" (at 31.75 19.6084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "POWER_REF.kicad_sch" (at 31.75 72.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "DAQ_4CH_16bit_100kSps"
+        (path "/ec0e71c3-6ccc-452c-a2da-59ca9f8f3408" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
