@@ -62,6 +62,8 @@ Code
  ┗ 📜 README.md        → You are here
 🖼️ PCB Preview
 <img width="1051" height="818" alt="image" src="https://github.com/user-attachments/assets/621cab7f-011f-48dc-b1ac-a3a1b488cf70" />
+<img width="990" height="832" alt="image" src="https://github.com/user-attachments/assets/a82f88f7-f937-4e7e-a162-6e855bf6732f" />
+
 
 🎯 Project Goals
 Build a compact and reliable DAQ module
