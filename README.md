@@ -63,8 +63,6 @@ Code
 🖼️ PCB Preview
 <img width="1051" height="818" alt="image" src="https://github.com/user-attachments/assets/621cab7f-011f-48dc-b1ac-a3a1b488cf70" />
 
-markdown
-![PCB 3D View](docs/pcb_3d_front.png)
 🎯 Project Goals
 Build a compact and reliable DAQ module
 
@@ -91,4 +89,4 @@ Embedded Electronics Engineer — Paris, France
 Passionate about hardware design, signal integrity, and embedded systems.
 
 📄 License
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
